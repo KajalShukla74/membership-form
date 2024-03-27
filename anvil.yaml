@@ -11,7 +11,7 @@ runtime_options: {version: 2, client_version: '3', server_version: python3-sandb
 metadata: {title: join our gym for personal fitness, description: Gym membership website}
 startup_form: Form1
 db_schema:
-  table_1:
+  gym:
     client: none
     server: full
     columns:
