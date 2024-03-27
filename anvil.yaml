@@ -10,4 +10,22 @@ runtime_options: {version: 2, client_version: '3', server_version: python3-sandb
   server_spec: null}
 metadata: {title: join our gym for personal fitness, description: Gym membership website}
 startup_form: Form1
+db_schema:
+  table_1:
+    client: none
+    server: full
+    columns:
+    - name: name
+      admin_ui: {order: 0, width: 200}
+      type: string
+    - name: address
+      admin_ui: {order: 1, width: 200}
+      type: string
+    - name: weight
+      admin_ui: {width: 200, order: 2}
+      type: number
+    - name: personal
+      admin_ui: {order: 3, width: 200}
+      type: bool
+    title: Table 1
 renamed: true
